@@ -1,0 +1,9 @@
+.forget span{
+   font-size: 13px;
+   color: rgb(105, 117, 129);
+}
+
+.forget span , h4 {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,30 @@
+.password_input {
+    height: 45px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.password_input input {
+border: none;
+outline: none;
+background: none;
+width: 100%;
+height: 100%;
+}
+
+.pass_has_error {
+    border: 1px solid var(--pcolor);
+}
+
+.icon_eye {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.pass_error {
+    color: var(--pcolor);
+}

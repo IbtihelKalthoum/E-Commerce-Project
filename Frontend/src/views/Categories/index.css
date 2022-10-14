@@ -1,0 +1,49 @@
+.add_close_button {
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    display: flex;
+    color: white;
+    justify-content: center;
+
+    align-itecategoriesms: center;
+}
+
+.plus {
+    background: black;
+
+}
+
+.Close {
+    background: var(--pcolor);
+}
+
+.category_form {
+    width: 100%;
+    display: flex;
+    margin-top: 25px;
+}
+
+.icondiv {
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    margin-right: 15px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icondiv:hover {
+    background: rgb(255, 155, 155);
+}
+
+.icondiv i {
+
+    font-size: 25px;
+}

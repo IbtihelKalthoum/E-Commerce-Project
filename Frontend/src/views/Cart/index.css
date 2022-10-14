@@ -1,0 +1,21 @@
+.cart__quantity {
+    display: flex;
+    align-items: center;
+    
+    margin-top: 35px;
+}
+
+.cart__quantity button {
+    margin:0px 15px;
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 50%; 
+    outline: none;
+    background: rgb(236, 235, 235);
+}
+
+.cart__quantity button:hover {
+    background: var(--pcolor);
+    color: white;
+}

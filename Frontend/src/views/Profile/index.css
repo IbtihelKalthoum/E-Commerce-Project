@@ -1,0 +1,27 @@
+.image_item {
+    
+    position:relative;
+   
+}
+
+
+.la-pen{
+    
+    margin-left: -2rem;
+    font-size: 26px;
+    position: absolute;
+    margin-top: 22px;
+    border: 2px solid #8d8a8a;
+    border-radius: 50%;
+    padding: 4px;
+    background: white;
+    color: black;
+
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.la-pen:hover {
+    background: var(--pcolor);
+    color:white
+}
